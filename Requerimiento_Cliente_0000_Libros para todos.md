@@ -1,64 +1,137 @@
-**DETALLE TÉCNICO**
+# 📘 Requerimiento de Desarrollo de Software  
+## Proyecto: *Libro para Todos*  
+### Versión 1.0
 
-|  |  |
-| --- | --- |
-| **Entregable: 2501328214\_PROCESO DE TRANSFERENCIAS DE QUEJAS F841.** | |
-| **ELABORÓ:**  Gabriela Vázquez / Anwar Tellez | |
-| **Vo.Bo. Sistemas:**  Felipe Bizuet Cabrera / Ana Martínez Torres | |
-| **Vo.Bo. Líder Usuario:** | |
-| **FÁBRICA:**  TIJUANA  QUERETARO | **Número**  **FOLIO UM: 2501328214**  **Pedido: 2051** |
+---
 
-1. Visión del proyecto “Libro para Todos”
-1.1 Enunciado de visión
+## 1. Visión del Proyecto
 
-“Libro para Todos es una aplicación móvil que permite a cualquier persona aficionada a la lectura encontrar, comprar, rentar o solicitar en préstamo libros de distintas categorías (ciencias, finanzas, política, etc.), ofreciendo opciones accesibles para todos los presupuestos y superando las limitaciones de los servicios centrados únicamente en la venta de libros.”
+### 1.1 Enunciado de Visión
+“**Libro para Todos** es una aplicación móvil que permite a cualquier persona aficionada a la lectura encontrar, comprar, rentar o solicitar en préstamo libros de distintas categorías (ciencias, finanzas, política, etc.), ofreciendo opciones accesibles para todos los presupuestos y superando las limitaciones de los servicios centrados únicamente en la venta de libros.”
 
-1.2 Público objetivo
+---
 
-Lectores con gusto por la lectura en general.
+### 1.2 Público Objetivo
+- Lectores con gusto por la lectura en general.
+- Personas que requieren libros de categorías específicas.
+- Usuarios que buscan alternativas económicas: compra, renta o préstamo.
+- Usuarios que desean comparar disponibilidad, precios y formatos.
 
-Personas que requieren libros de categorías específicas (Ciencias, Finanzas, Política, Literatura, etc.).
+---
 
-Usuarios que buscan alternativas económicas (renta o préstamo) además de la compra tradicional.
+### 1.3 Necesidades a Cubrir
+- Acceso a un catálogo amplio y organizado.
+- Búsqueda rápida y precisa por diversos criterios.
+- Opciones flexibles de adquisición.
+- Disponibilidad inmediata o logística eficiente para contenido físico.
+- Información detallada del libro con reseñas y valoraciones.
 
-1.3 Necesidades a cubrir
+---
 
-Acceder a un catálogo amplio y organizado por categorías.
+### 1.4 Solución Propuesta
 
-Encontrar libros de acuerdo con sus intereses y presupuesto.
+#### Funciones Principales
+- 🔎 **Búsqueda inteligente** con autocompletado.
+- 🎯 **Filtros avanzados** por categoría, precios, estrellas, formato.
+- 📚 **Catálogo visual** con tarjetas de resultados (portada, autor, costo, calificación).
+- 🧾 **Detalle de libro**: sinopsis, fichas técnicas, reseñas.
+- 👤 **Gestión de usuario**: perfil, historial, preferencias, pagos.
+- 🔁 **Préstamos y rentas P2P entre usuarios**.
+- 🏢 **Integración con casas editoriales y librerías**.
+- 📱 Aplicación nativa o híbrida optimizada para smartphone.
 
-Contar con diferentes modalidades de acceso al libro: compra, renta o préstamo.
+---
 
-Consultar la disponibilidad del libro desde cualquier lugar usando un smartphone.
+### 1.5 Propuesta de Valor y Diferenciadores
 
-1.4 Solución propuesta
+| Característica | Competidores | Libro para Todos |
+|---------------|--------------|-----------------|
+| Venta de libros | ✔ | ✔ |
+| Renta de libros | Limitado | ✔ |
+| Préstamo entre usuarios | ❌ | ✔ |
+| Inclusión económica | Limitado | ✔ |
+| Comunidad de lectores | Bajo | ✔ |
 
-Desarrollar una aplicación para smartphone que:
+La plataforma con opciones accesibles a cualquier presupuesto.
 
-Permita buscar libros por título, autor, categoría y rango de precios.
+---
 
-Ofrezca diferentes modalidades de acceso:
+### 1.6 Objetivo General del Sistema
+Desarrollar una aplicación móvil que integre en un solo espacio la **búsqueda, comparación, selección y acceso** a libros en diversas modalidades, impulsando el hábito lector mediante una experiencia económica y socialmente inclusiva.
 
-Compra
+---
 
-Renta por periodo definido
+## 1.7 Políticas de Cancelación
 
-Préstamo entre usuarios o mediante aliados (bibliotecas, librerías, etc.)
+### Compra
+- Cancelación válida si no se ha descargado contenido digital o enviado libro físico.
+- Reembolso al mismo método de pago.
 
-Muestre información clara de costos, condiciones de renta/préstamo y disponibilidad.
+### Renta
+- Cancelación antes del inicio del periodo de renta.
+- Reembolso parcial según uso.
 
-Gestione el perfil del usuario, historial de operaciones y preferencias de lectura.
+### Préstamo P2P
+- Cancelación hasta antes de la aceptación del propietario.
+- Posterior a ello, rigen reglas de devolución y cumplimiento.
 
-1.5 Propuesta de valor y diferenciadores
+### Consideraciones Generales
+- Seguimiento del estado de la cancelación.
+- Mostrar términos antes de confirmar cualquier operación.
 
-En comparación con otros servicios que se enfocan principalmente en la venta de libros, “Libro para Todos” se diferencia por:
+---
 
-Incluir renta y préstamo como modalidades estándar en la plataforma.
+## 1.8 Flujo de Préstamo entre Usuarios (P2P)
 
-Permitir al usuario encontrar opciones acordes a distintos niveles de presupuesto.
+### Roles
+- **Solicitante**
+- **Propietario**
+- **Sistema**
 
-Fomentar el acceso a la lectura a un público más amplio mediante opciones flexibles de adquisición.
+### Requisitos para ofrecer libros en préstamo/renta
+- Cuenta verificada.
+- Alta de libros con condiciones claras.
+- Aceptación del contrato digital P2P.
 
-1.6 Objetivo general del sistema
+### Flujo Simplificado
+1. Propietario registra libro disponible.
+2. Solicitante envía solicitud.
+3. Propietario acepta/rechaza.
+4. Sistema genera contrato digital.
+5. Entrega digital/física.
+6. Notificaciones y seguimiento.
+7. Finalización y evaluación mutua.
 
-Facilitar el acceso a libros, en formato físico o digital (según se defina en el alcance detallado), mediante una aplicación móvil que integre en un solo lugar la búsqueda, selección y obtención de libros bajo distintos esquemas de uso, favoreciendo la inclusión de todo tipo de lectores.
+---
+
+## 1.9 Flujo de Compra y Métodos de Pago
+
+| Método de Pago | Aplicación | Restricciones / Notas |
+|----------------|------------|----------------------|
+| Tarjeta crédito/débito | Digital y físico | Validación bancaria |
+| Meses Sin Intereses (MSI) | Compra según monto mínimo | No aplica a rentas o préstamos |
+| Pago en efectivo | Oxxo Pay / Depósito | Entrega posterior a confirmación del pago |
+
+### Seguridad
+- PCI-DSS, tokenización, autenticación 3DS.
+- Auditoría y antifraude.
+
+---
+
+## 1.10 Integración con Casas Editoriales
+
+### Objetivo
+Ampliar catálogo mediante aliados comerciales formales.
+
+### Requisitos
+- Registro empresarial validado.
+- Publicación de catálogo con metadatos completos.
+- Aceptación de términos comerciales y de licenciamiento.
+
+### Beneficios
+- Mayor oferta y actualidad del catálogo.
+- Ingresos por comisiones comerciales.
+- Panel de ventas y analítica para editoriales.
+- DRM opcional para proteger contenido digital.
+
+---
