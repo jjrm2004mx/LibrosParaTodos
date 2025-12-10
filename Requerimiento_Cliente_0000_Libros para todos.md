@@ -31,14 +31,14 @@
 ### 1.4 Solución Propuesta
 
 #### Funciones Principales
-- 🔎 **Búsqueda inteligente** con autocompletado.
-- 🎯 **Filtros avanzados** por categoría, precios, estrellas, formato.
-- 📚 **Catálogo visual** con tarjetas de resultados (portada, autor, costo, calificación).
-- 🧾 **Detalle de libro**: sinopsis, fichas técnicas, reseñas.
-- 👤 **Gestión de usuario**: perfil, historial, preferencias, pagos.
-- 🔁 **Préstamos y rentas P2P entre usuarios**.
-- 🏢 **Integración con casas editoriales y librerías**.
-- 📱 Aplicación nativa o híbrida optimizada para smartphone.
+-  **Búsqueda inteligente** con autocompletado.
+-  **Filtros avanzados** por categoría, precios, estrellas, formato.
+-  **Catálogo visual** con tarjetas de resultados (portada, autor, costo, calificación).
+-  **Detalle de libro**: sinopsis, fichas técnicas, reseñas.
+-  **Gestión de usuario**: perfil, historial, preferencias, pagos.
+-  **Préstamos y rentas P2P entre usuarios**.
+-  **Integración con casas editoriales y librerías**.
+-  Aplicación optimizada para smartphone (iOS y Android)
 
 ---
 
@@ -135,3 +135,4 @@ Ampliar catálogo mediante aliados comerciales formales.
 - DRM opcional para proteger contenido digital.
 
 ---
+
