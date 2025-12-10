@@ -1,4 +1,4 @@
-# 📘 Requerimiento de Desarrollo de Software  
+#  Requerimiento de Desarrollo de Software  
 ## Proyecto: *Libro para Todos*  
 ### Versión 1.0
 
@@ -135,4 +135,5 @@ Ampliar catálogo mediante aliados comerciales formales.
 - DRM opcional para proteger contenido digital.
 
 ---
+
 
